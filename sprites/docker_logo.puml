@@ -1,4 +1,4 @@
-sprite $out_docker_logo [48x48/16] {
+sprite $devops_docker_logo [48x48/16] {
 0000000000000000000007AAAA2000000000000000000000
 0000000000000000000007AAAA2000000000000000000000
 0000000000000000000007AAAA2000000000000000000000
@@ -49,9 +49,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA30000000
 000000000003678998865200000000000000000000000000
 }
 
-!define OUT_DOCKER_LOGO(_color)                                 SPRITE_PUT(                                   out_docker_logo, _color)
-!define OUT_DOCKER_LOGO(_color, _scale)                         SPRITE_PUT(                                   out_docker_logo, _color, _scale)
-!define OUT_DOCKER_LOGO(_color, _scale, _alias)                 SPRITE_ENT(  _alias, OUT DOCKER_LOGO,         out_docker_logo, _color, _scale)
-!define OUT_DOCKER_LOGO(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, OUT DOCKER_LOGO,         out_docker_logo, _color, _scale, _shape)
-!define OUT_DOCKER_LOGO(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, OUT DOCKER_LOGO, _label, out_docker_logo, _color, _scale, _shape)
-skinparam folderBackgroundColor<<OUT DOCKER_LOGO>> White
+!define DEVOPS_DOCKER_LOGO(_color)                                 SPRITE_PUT(                                      devops_docker_logo, _color)
+!define DEVOPS_DOCKER_LOGO(_color, _scale)                         SPRITE_PUT(                                      devops_docker_logo, _color, _scale)
+!define DEVOPS_DOCKER_LOGO(_color, _scale, _alias)                 SPRITE_ENT(  _alias, DEVOPS DOCKER_LOGO,         devops_docker_logo, _color, _scale)
+!define DEVOPS_DOCKER_LOGO(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, DEVOPS DOCKER_LOGO,         devops_docker_logo, _color, _scale, _shape)
+!define DEVOPS_DOCKER_LOGO(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, DEVOPS DOCKER_LOGO, _label, devops_docker_logo, _color, _scale, _shape)
+skinparam folderBackgroundColor<<DEVOPS DOCKER_LOGO>> White

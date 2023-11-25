@@ -1,0 +1,11 @@
+@startuml test
+!define Devops https://raw.githubusercontent.com/xNok/devops-plantuml-sprites/main/sprites
+
+!includeurl Devops/docker_logo.puml
+
+participant alice
+node "<$out_docker_logo,color=blue>" docker
+
+docker -> alice
+
+@endumls

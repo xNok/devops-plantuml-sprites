@@ -1,5 +1,0 @@
-@startuml test
-!include "../sprites/docker_logo.puml"
-
-folder "<$out_docker>"
-@enduml

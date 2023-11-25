@@ -31,8 +31,6 @@
 # This script assumes InkScape and PlantUml are in PATH.
 #
 
-set -x
-
 # Help usage message
 usage="Batch creates sprite files for PlantUml.
 
