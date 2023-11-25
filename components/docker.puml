@@ -1,7 +1,6 @@
-!define Devops https://raw.githubusercontent.com/xNok/devops-plantuml-sprites/main/sprites
+!define DevopsComponents https://raw.githubusercontent.com/xNok/devops-plantuml-sprites/main/sprites
 
-!includeurl Devops/docker_logo.puml
-!includeurl Devops/caddy_server.puml
+!includeurl DevopsComponents/docker_logo.puml
 
 !definelong DockerContainer(e_alias, e_label)
 skinparam rectangleTextAlignment<<DockerContainer>> center

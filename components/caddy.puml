@@ -1,6 +1,6 @@
-!define Devops https://raw.githubusercontent.com/xNok/devops-plantuml-sprites/main/sprites
+!define DevopsComponents https://raw.githubusercontent.com/xNok/devops-plantuml-sprites/main/sprites
 
-!includeurl Devops/caddy_server.puml
+!includeurl DevopsComponents/caddy_server.puml
 
 !definelong CaddyServer(e_alias, e_label)
 skinparam rectangleTextAlignment<<CaddyServer>> center
