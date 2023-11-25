@@ -1,0 +1,12 @@
+!define Devops https://raw.githubusercontent.com/xNok/devops-plantuml-sprites/main/sprites
+
+!includeurl Devops/docker_logo.puml
+!includeurl Devops/caddy_server.puml
+
+!definelong DockerContainer(e_alias, e_label)
+skinparam rectangleTextAlignment<<DockerContainer>> center
+skinparam componentTextAlignment<<DockerContainer>> center
+skinparam componentDefaultTextAlignment<<DockerContainer>> center
+skinparam defaultTextAlignment<<DockerContainer>> center
+node "==e_label\n<color:blue><$devops_docker_logo></color>\n" <<DockerContainer>> as e_alias
+!enddefinelong
