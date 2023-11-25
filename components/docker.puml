@@ -1,5 +1,4 @@
-!define DevopsComponents https://raw.githubusercontent.com/xNok/devops-plantuml-sprites/main/sprites
-
+!define DevopsSprites https://raw.githubusercontent.com/xNok/devops-plantuml-sprites/main/sprites
 !includeurl DevopsComponents/docker_logo.puml
 
 !definelong DockerContainer(e_alias, e_label)
