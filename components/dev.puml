@@ -1,6 +1,6 @@
 !define DevopsSprites https://raw.githubusercontent.com/xNok/devops-plantuml-sprites/main/sprites
-!includeurl DevopsSprites/developper_happy.puml
-!includeurl DevopsSprites/developper_evil.puml
+!includeurl DevopsSprites/developer_happy.puml
+!includeurl DevopsSprites/developer_evil.puml
 
 !definelong HappyDeveloper(e_alias, e_label)
 skinparam rectangleTextAlignment<<HappyDeveloper>> center
