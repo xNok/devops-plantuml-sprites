@@ -7,7 +7,7 @@
 !includeurl Devops/dev.puml
 
 DockerContainer(portainer, "Portainer")
-CaddyServer(caddy, "name")
+CaddyServer(caddy, "Reverse Proxy")
 
 DockerContainer(app1, "App")
 DockerContainer(app2, "App")
@@ -15,9 +15,9 @@ DockerContainer(app2, "App")
 HappyDeveloper(dev, "You")
 
 caddy --> portainer
-caddy --> app1
+caddy -[#green]-> app1
 caddy --> app2
 
-dev -> caddy
+dev -> caddy: example.com
 
 @enduml
