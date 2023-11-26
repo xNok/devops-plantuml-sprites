@@ -10,7 +10,7 @@ skinparam componentBorderColor<<HappyDeveloper>> transparent
 skinparam backgroundColor<<HappyDeveloper>> transparent
 skinparam defaultTextAlignment<<HappyDeveloper>> center
 hide <<HappyDeveloper>> stereotype
-rectangle "==e_label\n<color:blue><$devops_developer_evil></color>\n" <<DockerContainer>> as e_alias
+rectangle "==e_label\n<color:blue><$devops_developer_happy></color>\n" <<DockerContainer>> as e_alias
 !enddefinelong
 
 !definelong EvilDeveloper(e_alias, e_label)
