@@ -2,9 +2,9 @@
 !define Devops https://raw.githubusercontent.com/xNok/devops-plantuml-sprites/main/sprites
 !includeurl Devops/docker_logo.puml
 
-participant alice
-node "<$out_docker_logo,color=blue>" docker
+actor alice
+node "<$devops_docker_logo,color=blue>" as docker
 
-docker -> alice
+alice -> docker
 
 @endumls

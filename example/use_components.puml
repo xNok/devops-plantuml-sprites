@@ -1,0 +1,18 @@
+@startuml test
+
+!define Devops https://raw.githubusercontent.com/xNok/devops-plantuml-sprites/main/components
+!includeurl Devops/docker.puml
+!includeurl Devops/caddy.puml
+!includeurl Devops/common.puml
+
+DockerContainer(portainer, "Portainer")
+CaddyServer(caddy, "name")
+
+DockerContainer(app1, "App")
+DockerContainer(app2, "App")
+
+caddy --> portainer
+caddy --> app1
+caddy --> app2
+
+@enduml
