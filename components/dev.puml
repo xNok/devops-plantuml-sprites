@@ -1,0 +1,25 @@
+!define DevopsSprites https://raw.githubusercontent.com/xNok/devops-plantuml-sprites/main/sprites
+!includeurl DevopsSprites/developper_happy.puml
+!includeurl DevopsSprites/developper_evil.puml
+
+!definelong HappyDeveloper(e_alias, e_label)
+skinparam rectangleTextAlignment<<HappyDeveloper>> center
+skinparam componentTextAlignment<<HappyDeveloper>> center
+skinparam componentDefaultTextAlignment<<HappyDeveloper>> center
+skinparam componentBorderColor<<HappyDeveloper>> transparent
+skinparam backgroundColor<<HappyDeveloper>> transparent
+skinparam defaultTextAlignment<<HappyDeveloper>> center
+hide <<HappyDeveloper>> stereotype
+rectangle "==e_label\n<color:blue><$devops_developer_evil></color>\n" <<DockerContainer>> as e_alias
+!enddefinelong
+
+!definelong EvilDeveloper(e_alias, e_label)
+skinparam rectangleTextAlignment<<EvilDeveloper>> center
+skinparam componentTextAlignment<<EvilDeveloper>> center
+skinparam componentDefaultTextAlignment<<EvilDeveloper>> center
+skinparam componentBorderColor<<EvilDeveloper>> transparent
+skinparam backgroundColor<<EvilDeveloper>> transparent
+skinparam defaultTextAlignment<<EvilDeveloper>> center
+hide <<EvilDeveloper>> stereotype
+rectangle "==e_label\n<color:blue><$devops_developer_evil></color>\n" <<DockerContainer>> as e_alias
+!enddefinelong
